@@ -1,0 +1,5 @@
+#Gven a file with 2 random numbers. Meant to generate the sum of their squares.
+with open('rosalind_ini2.txt') as f:
+        line = f.readline()
+        a,b = map(int,line.split(" "))
+        print(a**2 + b**2)
