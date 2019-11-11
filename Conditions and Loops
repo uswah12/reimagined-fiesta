@@ -1,0 +1,22 @@
+#Given: Two positive integers a and b (a<b<10000). Return:The sum of all odd integers from a through b, inclusively.
+lst = list()
+value = 0
+with open('rosalind_ini2.txt') as f:
+        line = f.readline()
+        a,b = map(int,line.split(" "))
+        lst.append(a)
+        lst.append(b)
+
+for number in lst:
+    if number >= 100 and number < 199:
+        number = number + 1
+        lst.append(number)
+    else:
+        pass
+for number in lst:
+    if number % 2 == 1:
+        value = value + number
+    else:
+        pass
+print("List:", lst)
+print("Sum:", value)
