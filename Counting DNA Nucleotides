@@ -1,0 +1,8 @@
+#Given: A DNA string s of length at most 1000 nt.
+#Return: Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in s.
+DNA = open('rosalind_dna.txt','r')
+s = DNA.read()
+count = dict()
+for n in s:
+    count[n] = count.get(n, 0) + 1
+print(count['A'],count['G'],count['C'],count['T'])
