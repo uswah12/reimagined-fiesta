@@ -1,0 +1,7 @@
+f = open('rosalind_ini6.txt','r')
+f_r = f.read()
+counts = dict()
+for word in f_r.split(' '):
+    counts[word] = counts.get(word,0) + 1
+for word in counts:
+    print(word, counts[word])
