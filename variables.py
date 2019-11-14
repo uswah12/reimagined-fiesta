@@ -17,7 +17,9 @@ with open('rosalind_ini2.txt') as f:
 #
 # (note the space after the comma, which is Python style)
 # This is a list comprehension, and does exactly what you've done already
-# with map(). I'm including it for illustration only.
+# with map(). I'm including it for illustration only. One beauty of Python
+# is that it enables multiple different approaches to solve a problem.
+# Yours is a good one!
 #
 # line.split() will split on *any* whitespace (tab, space, newline, etc.)
 # by default, so it doesn't need to be specified.
