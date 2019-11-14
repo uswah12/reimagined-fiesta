@@ -40,4 +40,5 @@ for word in counts:
 # for word, count in ctr.items():
 #   print(word, count)
 #
-# You can get more information at https://pymotw.com/2/collections/counter.html
+# You can get more information at https://pymotw.com/2/collections/counter.html -
+# it more or less implements what you've written in answer to this problem.
